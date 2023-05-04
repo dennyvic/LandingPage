@@ -1,0 +1,98 @@
+.container1 {
+  border: solid navy;
+  color: navy;
+  font-weight: 900;
+  font-size: 20px;
+  display: flex;
+  justify-content: left;
+  padding-left: 100px;
+}
+
+.item1 {
+  display: flex;
+  justify-content: right;
+  border: solid red;
+  padding: 2%;
+}
+
+.item2 {
+  display: flex;
+  justify-content: right;
+  border: solid darkmagenta;
+  margin-left: 400px;
+  padding-right: 15px;
+}
+
+.container2 {
+  border: solid goldenrod;
+  display: flex;
+  padding-left: 100px;
+  justify-content: left;
+}
+
+.item3 {
+  border: solid green;
+  display: flex;
+  justify-content: left;
+}
+
+.item4 {
+  border: solid olive;
+  display: flex;
+}
+
+.item5 {
+  border: 3px solid pink;
+  display: flex;
+  justify-content: right;
+}
+
+.button {
+  display: flex;
+}
+
+.container3 {
+  display: flex;
+  border: solid purple;
+  justify-content: space-around;
+}
+
+.container4 {
+  display: flex;
+  border: solid salmon;
+}
+
+.box1 {
+  display: flex;
+  border: solid yellow;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.box2 {
+  display: flex;
+  border: solid yellow;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.box3 {
+  display: flex;
+  border: solid yellow;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.box4 {
+  display: flex;
+  border: solid yellow;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.footer {
+  display: flex;
+  border: solid firebrick;
+  justify-content: space-around;
+  margin-top: 2%;
+}
