@@ -6,6 +6,7 @@
   display: flex;
   justify-content: left;
   padding-left: 100px;
+  margin-top: 1%;
 }
 
 .item1 {
@@ -28,6 +29,18 @@
   display: flex;
   padding-left: 100px;
   justify-content: left;
+  margin-top: 2%;
+}
+
+.button1 {
+  display: flex;
+  padding: 10px;
+}
+
+.containerX {
+  display: flex;
+  margin-top: 2%;
+  margin-left: 100px;
 }
 
 .item3 {
@@ -45,21 +58,21 @@
   border: 3px solid pink;
   display: flex;
   justify-content: right;
-}
-
-.button {
-  display: flex;
+  margin-left: 15px;
 }
 
 .container3 {
   display: flex;
   border: solid purple;
   justify-content: space-around;
+  margin-top: 2%;
 }
 
 .container4 {
   display: flex;
-  border: solid salmon;
+  border: 3px solid salmon;
+  padding: 10px;
+  margin-top: 2%;
 }
 
 .box1 {
@@ -67,6 +80,7 @@
   border: solid yellow;
   margin-left: 4%;
   margin-right: 4%;
+  padding: 10px;
 }
 
 .box2 {
@@ -74,6 +88,7 @@
   border: solid yellow;
   margin-left: 4%;
   margin-right: 4%;
+  padding: 10px;
 }
 
 .box3 {
@@ -81,6 +96,7 @@
   border: solid yellow;
   margin-left: 4%;
   margin-right: 4%;
+  padding: 10px;
 }
 
 .box4 {
@@ -88,11 +104,16 @@
   border: solid yellow;
   margin-left: 4%;
   margin-right: 4%;
+  padding: 10px;
+}
+
+bottom-container {
+  display: flex;
 }
 
 .footer {
   display: flex;
   border: solid firebrick;
   justify-content: space-around;
-  margin-top: 2%;
+  margin-top: 100px;
 }
