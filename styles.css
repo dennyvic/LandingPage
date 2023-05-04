@@ -30,11 +30,15 @@
   padding-left: 100px;
   justify-content: left;
   margin-top: 2%;
+  flex-direction: column;
 }
 
 .button1 {
   display: flex;
   padding: 10px;
+  height: 40px;
+  width: 80px;
+  flex-direction: column;
 }
 
 .containerX {
@@ -52,13 +56,14 @@
 .item4 {
   border: solid olive;
   display: flex;
+  flex-direction: row;
 }
 
 .item5 {
   border: 3px solid pink;
   display: flex;
   justify-content: right;
-  margin-left: 15px;
+  padding-right: 10px;
 }
 
 .container3 {
@@ -73,42 +78,70 @@
   border: 3px solid salmon;
   padding: 10px;
   margin-top: 2%;
+  justify-content: space-around;
 }
 
 .box1 {
   display: flex;
-  border: solid yellow;
+  border: solid black;
   margin-left: 4%;
   margin-right: 4%;
   padding: 10px;
+  border-radius: 6px;
+  height: 100px;
+  width: 100px;
 }
 
 .box2 {
   display: flex;
-  border: solid yellow;
+  border: solid black;
   margin-left: 4%;
   margin-right: 4%;
   padding: 10px;
+  border-radius: 6px;
+  height: 100px;
+  width: 100px;
 }
 
 .box3 {
   display: flex;
-  border: solid yellow;
+  border: solid black;
   margin-left: 4%;
   margin-right: 4%;
   padding: 10px;
+  border-radius: 6px;
+  height: 100px;
+  width: 100px;
 }
 
 .box4 {
   display: flex;
-  border: solid yellow;
+  border: solid black;
   margin-left: 4%;
   margin-right: 4%;
   padding: 10px;
+  border-radius: 6px;
+  height: 100px;
+  width: 100px;
 }
 
-bottom-container {
+.containerY {
   display: flex;
+  border: 3px solid greenyellow;
+  padding: 10px;
+}
+
+.button2 {
+  display: flex;
+  padding: 10px;
+  height: 40px;
+  width: 80px;
+  flex-direction: column;
+}
+
+.bottom-container {
+  display: flex;
+  flex-direction: column;
 }
 
 .footer {
