@@ -133,11 +133,13 @@ button {
   display: flex;
   /* border: solid purple; */
   /* justify-content: space-around; */
-  margin-top: 150px;
-  margin-bottom: 50px;
+  margin-top: 90px;
+  margin-bottom: 90px;
   font-size: larger;
   font-style: italic;
   background: rgb(228, 231, 235);
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
 
 .InfoContainer {
@@ -156,10 +158,14 @@ button {
   width: 800px;
   display: flex;
   padding: 1%;
+  justify-content: space-around;
 }
 
 button {
   width: 70px;
+  height: 30px;
+  border-radius: 10px;
+  margin-top: 2%;
 }
 
 .FooterContainer {
